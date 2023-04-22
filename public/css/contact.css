@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+    --secondary : #3a3a3a;
+}
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+
+
+header{
+    background: #fff;
+    /* background:transparent; */
+    position: relative;
+
+}
+
+.container{
+    max-width: 1440px;
+    padding: 0 50px;
+    margin: 0 auto;
+
+
+}
+
+.logo img{
+    display: block;
+    object-fit: cover;
+    width: 38%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar nav{
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.navbar nav li {
+    list-style: none; 
+    margin-left: 1rem;
+}
+
+.navbar nav li a{
+    text-decoration: none;
+    /* color: #fff; */
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0.7rem 0.6rem;
+
+}
+
+.navbar nav li a:hover{
+    border-bottom: 3px solid black;    
+}
+
+
+
+body{
+    background: #ede9e9;
+}
+
+/* form & map css  */
+
+.map-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.contact{
+    margin-top: 5vh;
+    height: 70vh;
+    width: 85vw;
+    border-radius: 1rem;
+    display: flex;
+    box-shadow: 0 .5rem .5rem #0006;
+}
+
+.map, .form{
+    width: 50%;
+    height: 100%;
+}
+
+.map iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.form{
+    background-color: var(--secondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 0rem 1rem 1rem 0rem;
+}
+
+
+
+.form h1{
+    color: #fff;
+    font: 500 1.8rem ;
+    padding: 2.2rem;
+}
+
+.form form{
+    padding:  0 2rem;
+}
+
+.form input, .form textarea {
+    width: 100%;
+    padding: 1rem;
+    border: .08rem solid #fff;
+    border-radius: 2rem;
+    background-color: unset;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.form input:not(:first-child), .form textarea, .form button{
+    margin-top: .8rem;
+}
+
+.form textarea{
+    height: 8rem;
+    resize: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+.form button{
+    background: #fff;
+    padding: 0.5rem 2rem;
+    color: #000;
+    border-radius: 2rem;
+    border: none;
+    margin-bottom: 5vh;
+}
+
+.title h1{
+    text-align: center;
+    padding: 2rem 2rem 0rem 2rem;
+    font-size: 3rem;
+}
+
+.title p{
+    text-align: center;
+    padding: 0rem 2rem 0rem 2rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color:#ec1c24;;
+}
+
+
+
+
+
+
+  /* footer */
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  footer {
+    background-color: #3a3a3a;
+    color: #bbb;
+    line-height: 1.5;
+    margin-top: 8vh;
+  }
+  footer a {
+    text-decoration: none;
+    color: #eee;
+    font-size: 1.15rem;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .ft-title {
+    color: #fff;
+    font-size: 1.8rem;
+    padding-bottom: 0.625rem;
+  }
+  /* Sticks footer to bottom */
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  .container {
+    flex: 1;
+  }
+  /* Footer main */
+  .ft-main {
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media only screen and (min-width: 29.8125rem /* 477px */) {
+    .ft-main {
+      justify-content: space-evenly;
+    }
+  }
+  @media only screen and (min-width: 77.5rem /* 1240px */) {
+    .ft-main {
+      justify-content: space-evenly;
+    }
+  }
+  .ft-main-item {
+    padding: 1.25rem;
+    min-width: 12.5rem;
+  }
+
+  /* Footer social */
+  .ft-social {
+    padding: 0 1.875rem 1.25rem;
+  }
+  .ft-social-list {
+    display: flex;
+    justify-content: center;
+    border-top: 1px #777 solid;
+    padding-top: 1.25rem;
+  }
+  .ft-social-list li {
+    margin: 0.5rem;
+    font-size: 1.5rem;
+  }
+  /* Footer legal */
+  .ft-legal {
+    padding: 0.9375rem 1.875rem;
+    background-color: #252525;
+  }
+  .ft-legal-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ft-legal-list li {
+    margin: 0.125rem 0.625rem;
+    white-space: nowrap;
+  }
+  /* one before the last child */
+  .ft-legal-list li:nth-last-child(2) {
+      flex: 1;
+  }
+
+  .footer-icons{
+    font-size: 1.6rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+/* form resposiveness */
+
+@media (max-width: 621px) {
+    .form h1{
+        padding: 6rem 2rem 2rem 4rem;
+    }
+
+    .form{
+        border-radius: 0rem 0rem 0rem 0rem;
+    }
+
+    .map iframe{
+        border-radius: 0rem;
+    }
+
+    .map, .form{
+        width: 100%;
+    }
+
+    .contact{
+        display: block;
+        border-radius: 1rem;
+        height: 80vh;
+    }
+
+    .map{
+        height: 35vh;
+    }
+
+    body{
+        background: #c7c4c4;
+    }
+
+    footer {
+        background-color: #3a3a3a;
+        color: #bbb;
+        line-height: 1.5;
+        margin-top: 45vh;
+      }
+
+      .title h1{
+        text-align: center;
+        padding: 2rem 2rem 0rem 2rem;
+        font-size: 2.5rem;
+    }
+    
+    .title p{
+        text-align: center;
+        padding: 0rem 2rem 0rem 2rem;
+        font-size: 1.3rem;
+        font-weight: 700;
+        color:#ec1c24;;
+    }
+    
+
+}
+
+
+
+
+
+
+
+ /* responsiveness & navbar  */
+ .navbar .btn{
+    font-size: 1.2rem;
+    color: #fff;
+    align-items: center;
+    cursor: center;
+    display: none;
+ } 
+
+ /* media querie */
+ @media (max-width: 1058px){
+
+    .customer-msg{
+      width: 4.2vw;
+    }
+
+    .whatsapp-msg{
+      width: 4.2vw;
+    }
+
+    .back-to-top{
+      width: 4.2vw;
+    }
+
+    .container{
+        padding: 0 25px;    
+    }
+
+
+     .navbar nav li a{
+        font-size: 1.2rem;
+      
+    }
+
+    .navbar nav {
+      display: flex;
+      align-items: center;
+      padding: 1.5rem 0;
+      width: 140vw;
+  }
+
+    .logo img{
+      width: 55%;
+      margin-top: 6px;
+      margin-bottom: 11px;
+    }
+
+ }
+
+ @media (max-width: 902px){
+
+    .customer-msg{
+      width: 5vw;
+    }
+
+    .whatsapp-msg{
+      width: 5vw;
+    }
+
+    .back-to-top{
+      width: 5vw;
+    }
+
+    .logo img{
+          width: 35%;
+          margin-top: 0px;
+          margin-bottom: 0px;
+        
+    }
+
+    .content p {
+        text-align: center;
+    }
+    
+    .navbar{
+        padding: 10px 0px 10px 0px;
+    }
+
+    .navbar .btn{
+        display: block;
+        color: #000;
+    }
+    .navbar nav {
+        position: fixed;
+        flex-direction: column;
+        min-width: 100%;
+        min-height: 50vh;
+        top: 0;
+        right: -100%;
+        background: #fff;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100vw;
+    }
+    .navbar nav li{
+        margin: 1rem 2rem;
+        border-bottom: 1px solid #000;
+        padding-bottom: 1rem;
+        width: 100%;
+    }
+    
+    .close-btn{
+        position: absolute;
+        top: 0;
+        left: 90%;
+        margin: 25px;
+    }
+
+
+    /* why us  */
+    .whyUsPoints{
+      gap: 8vw;
+      padding: 21px;
+    }
+    .whyUsPara {
+      font-size: 0.9rem;
+      margin-top: 12px;
+    }
+
+    .whyUs-title{
+      margin: 0px 0px 50px 0px;
+    }
+
+
+
+    /* javascript active class for menu btn  */
+    .navbar nav.active{
+        right: 0;
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .content h2{
+        font-size: 3.5rem;
+        color: #fff ;
+
+     }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        height: 90vh;
+        align-items: center;
+     } 
+
+     .content button {
+        width: 50%;
+      }
+
+    .content  .social-icons{
+        justify-content: space-evenly;
+        width: 100%;
+     }  
+ }
+
+ /* phone  */
+
+ @media(max-width: 580px){
+    .content h2{
+        font-size: 2rem;
+        color: #fff ;
+     }
+
+     .content p{
+        font-size: 1rem;
+     }
+
+     .close-btn{
+        position: absolute;
+        top: 0;
+        left: 86%;
+        margin: 15px;
+     }
+
+     .back-to-top{
+      width: 10.2vw;
+     }
+
+     /* why us  */
+
+     .whyUsPoints {
+      flex-direction: column;
+      text-align: center;
+      gap: 1vw;
+     }
+
+     .whyUsPoints div{
+      margin: auto;
+      width: 80%;
+      padding: 0px;
+     }
+
+     .whyUsPara{
+      font-size: 1rem;
+     }
+
+     .whyUs-title{
+      margin: 20px 0px 50px 0px;
+    }
+
+     .whyUsIcon{
+      font-size: 2.8rem;
+     }
+
+     .testim .cont div p{
+      font-size: 1rem;
+     }
+
+     .testi-title{
+      font-size: 2rem;
+     }
+
+     footer a{
+      font-size: 1rem;
+     }
+
+     .customer-msg {
+      width: 10.2vw;
+     }
+
+     .whatsapp-msg{
+      width: 10.2vw;
+     }
+ }
+
+ @media(max-width:  335px){
+    .content h2{
+        font-size: 1.7rem;
+    }
+
+    .content p{
+        font-size: 0.9rem;
+     }
+
+     .testi-title{
+      font-size: 1.9rem;
+     }
+ }
