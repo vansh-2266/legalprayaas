@@ -32,7 +32,7 @@ header{
 .logo img{
     display: block;
     object-fit: cover;
-    width: 60%;
+    width: 35%;
     margin-top: 10px;
     margin-bottom: 13px;
 }
@@ -444,19 +444,36 @@ header{
     }
 
     .logo img{
-        width: 45%;
-        margin-top: 0px;
-    margin-bottom: 0px;
+        width: 55%;
+        margin-top: 6px;
+    margin-bottom: 11px;
     }
+
+    .about-text-content h2 {
+      font-size: 2.4rem;
+      color: #442911;
+      margin-bottom: 1vh;
+    }
+
+  .about-text-content p {
+    font-size: 1rem;
+  }
+
+  .navbar nav {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 0;
+    width: 140vw;
+}
 
  }
 
- @media (max-width: 902px){
+ @media (max-width: 900px){
     .back-to-top{
         width: 5vw;
     }
     .logo img{
-        width: 40%;
+        width: 35%;
     }
 
     .content p {
@@ -481,6 +498,7 @@ header{
         background: #fff;
         align-items: flex-start;
         justify-content: center;
+        width: 100vw;
     }
     .navbar nav li{
         margin: 1rem 2rem;
@@ -501,6 +519,21 @@ header{
         right: 0;
         transition: all 0.5s ease-in-out;
     }
+
+
+    .aboutUs-content{
+      flex-direction: column;
+    }
+
+    .aboutUs-content img{
+      width: 84vw;
+    }
+
+    .about-text-content {
+      text-align: justify;
+      margin-top: 19px;
+      margin-left: 0px;
+    }
     
  }
 
@@ -517,6 +550,18 @@ header{
 
      .back-to-top{
         width: 8vw;
+     }
+
+     .aboutUs-content{
+      padding: 15px;
+     }
+
+     .about h1{
+      font-size: 3.5rem;
+     }
+
+     .about-founder h1{
+      font-size: 3.5rem;
      }
  }
 

@@ -29,9 +29,9 @@ header{
 .logo img{
     display: block;
     object-fit: cover;
-    width: 60%;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    width: 38%;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 
 .navbar{
@@ -495,9 +495,31 @@ header{
     }
 
     .logo img{
-        width: 45%;
+        width: 35%;
         margin-top: 0px;
-    margin-bottom: 0px;
+       margin-bottom: 0px;
+    }
+
+    .banner-title h1 {
+      font-size: 5rem;
+      color: #fff;
+      background: rgba(0, 0, 0, 0.57);
+      padding: 25px;
+      border-radius: 1rem;
+      text-align: center;
+    }
+
+    .banner-title button {
+      margin-top: 50px;
+      width: 18vw;
+      height: 8vh;
+      /* background: rgba(0, 0, 0, 0.5); */
+      background: #fff;
+      border-radius: 10px;
+      border: 2px solid #000;
+      font-size: 1.5rem;
+      color: #000;
+      font-weight: 600;
     }
 
  }
@@ -507,7 +529,7 @@ header{
         width: 5vw;
     }
     .logo img{
-        width: 40%;
+      width: 34%;
     }
 
     .content p {
@@ -517,6 +539,28 @@ header{
     .navbar{
         padding: 10px 0px 10px 0px;
     }
+
+    .banner-title button {
+      margin-top: 50px;
+      width: 24vw;
+      height: 8vh;
+      /* background: rgba(0, 0, 0, 0.5); */
+      background: #fff;
+      border-radius: 10px;
+      border: 2px solid #000;
+      font-size: 1.5rem;
+      color: #000;
+      font-weight: 600;
+  }
+
+  .banner-title h1 {
+    font-size: 4rem;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.57);
+    padding: 25px;
+    border-radius: 1rem;
+    text-align: center;
+}
 
     .navbar .btn{
         display: block;
@@ -553,6 +597,8 @@ header{
         transition: all 0.5s ease-in-out;
     }
     
+    
+
  }
 
  /* phone  */
@@ -569,6 +615,30 @@ header{
      .back-to-top{
         width: 8vw;
      }
+
+     .banner-title button {
+      margin-top: 50px;
+      width: 37vw;
+      height: 8vh;
+      /* background: rgba(0, 0, 0, 0.5); */
+      background: #fff;
+      border-radius: 10px;
+      border: 2px solid #000;
+      font-size: 1.1rem;
+      color: #000;
+      font-weight: 600;
+  }
+
+  .banner-title h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.57);
+    padding: 23px;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+
  }
 
  @media(max-width:  335px){
