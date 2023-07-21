@@ -53,7 +53,7 @@ header{
 .navbar nav li a{
     text-decoration: none;
     /* color: #fff; */
-    color: #000;
+    color: #406ac0;
     font-size: 1.3rem;
     font-weight: 600;
     padding: 0.7rem 0.6rem;
@@ -61,7 +61,7 @@ header{
 }
 
 .navbar nav li a:hover{
-    border-bottom: 3px solid black;    
+    border-bottom: 3px solid #406ac0;    
 }
 
 
@@ -70,12 +70,16 @@ header{
     margin-top: 10px;
     width: 100%;
     height: calc(95vh - 60px);
-    background: url(../img/banner.jpg);
+    background: url(../img/blog-banner-blu.png);
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: -1;
+}
+
+.title h2 span{
+  color: #406ac0;
 }
 
 .content{
@@ -92,7 +96,7 @@ header{
 
 .heading .small{
     display: block;
-    font-size: 60px;
+    font-size: 70px;
     margin: 15px;
 }
 
@@ -158,8 +162,8 @@ header{
     padding-left: 0;
   }
   footer {
-    background-color: #3a3a3a;
-    color: #bbb;
+    background-color: #406ac0;
+    color: #fff;
     line-height: 1.5;
   }
   footer a {
@@ -208,6 +212,7 @@ header{
   /* Footer social */
   .ft-social {
     padding: 0 1.875rem 1.25rem;
+    border-top: 1px solid #fff;
   }
   .ft-social-list {
     display: flex;
@@ -222,7 +227,7 @@ header{
   /* Footer legal */
   .ft-legal {
     padding: 0.9375rem 1.875rem;
-    background-color: #252525;
+    background-color: #3a5389;
   }
   .ft-legal-list {
     width: 100%;

@@ -35,3 +35,13 @@ const createBlog = (blog) => {
     </div>
     `;
 }
+
+
+
+
+let whatsLink = document.querySelector('.whatsapp-link');
+
+whatsLink.addEventListener('click', function(){
+    var url = "https://wa.me/919205248110?text=" ;
+    window.open(url, '_blank').focus();
+})

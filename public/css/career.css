@@ -1,0 +1,141 @@
+.career-prayaas h1{
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 3rem;
+}
+
+.career-prayaas h1 span{
+    color: #406ac0;
+}
+span{
+    color: #406ac0;
+}
+
+strong{
+    color: #406ac0;
+}
+
+/* .#406ac0 */
+
+.career-prayaas{
+    padding: 0rem 8rem;
+}
+.career-prayaas p{
+    text-align: justify;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+} 
+
+/* job s  */
+
+.job-opportunity h1{
+    padding: 1rem 1rem 2rem 1rem;
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+#jobCount{
+    padding: 1rem 3rem ;
+
+}
+
+#jobCount div{
+    padding: 1rem 10rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    
+}
+
+#jobCount div h2{
+    border: 2px solid #406ac0;
+    padding: 0.5rem 0rem;
+    background: #406ac0;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#jobCount div h3{
+    border: 2px solid #406ac0;
+    padding: 0.5rem 0rem;
+    background: #406ac0;
+    color: #fff;
+
+}
+#jobCount div p{
+    padding: 1rem 2rem;
+    text-align: justify;
+    border: 5px solid #406ac0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 1.1rem;
+}
+
+
+/* media query  */
+
+@media (max-width: 1050px){
+    #jobCount div{
+        padding: 1rem 5rem;
+        text-align: center;
+        margin-bottom: 0.5rem;
+        
+    }
+}
+
+@media (max-width: 790px){
+    .career-prayaas h1{
+        font-size: 2.5rem;
+    }
+
+    .career-prayaas p{
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    .career-prayaas{
+        padding: 0rem 5rem;
+    }
+    #jobCount div{
+        padding: 1rem 3rem;
+        text-align: center;
+        margin-bottom: 0.5rem;
+        
+    }
+}
+
+@media (max-width: 500px){
+    .career-prayaas h1{
+        font-size: 2.5rem;
+    }
+
+    .career-prayaas p{
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+
+    .career-prayaas{
+        padding: 0rem 3rem;
+    }
+    #jobCount div{
+        padding: 1rem 0.5rem;
+        text-align: center;
+        margin-bottom: 0.5rem;
+        
+    }
+
+    #jobCount div p{
+        padding: 1rem 2rem;
+        text-align: justify;
+        border: 5px solid #406ac0;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-size: 0.8rem;
+    }
+
+    #jobCount{
+        padding: 1rem 2rem ;
+    
+    }
+}

@@ -4,75 +4,82 @@
     padding: 0;
     margin: 0;
     font-family: 'Rubik', sans-serif;
+    scroll-behavior: smooth;
 }
+
 
 /* navbar */
 
-
-
 header{
-    background: #fff;
-    /* background:transparent; */
-    position: relative;
-    z-index: 99999;
+  background: #fff;
+  /* background:transparent; */
+  position: relative;
+  z-index: 99999;
 
+  background: rgba( 249, 245, 245, 0.45 );
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.57);
+  
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
 }
 
-.container{
-    max-width: 1440px;
-    padding: 0 50px;
-    margin: 0 auto;
+.Nav-container{
+  max-width: 1440px;
+  padding: 0 50px;
+  margin: 0 auto;
 
 
 }
 
 .logo img{
-    display: block;
-    object-fit: cover;
-    width: 38%;
-    margin-top: 6px;
-    margin-bottom: 6px;
+  display: block;
+  object-fit: cover;
+  width: 35%;
+  margin-top: 10px;
+  margin-bottom: 13px;
 }
 
 .navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
 }
 
 .navbar nav{
-    display: flex;
-    align-items: center;
-    padding: 1.5rem 0;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 0;
 }
 
 .navbar nav li {
-    list-style: none; 
-    margin-left: 1rem;
+  list-style: none; 
+  margin-left: 1rem;
+  
 }
 
 .navbar nav li a{
-    text-decoration: none;
-    /* color: #fff; */
-    color: #000;
-    font-size: 1.3rem;
-    font-weight: 600;
-    padding: 0.7rem 0.6rem;
+  text-decoration: none;
+  /* color: #fff; */
+  /* color: #000; */
+  color: #406ac0;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 0.7rem 0.6rem;
 
 }
 
 .navbar nav li a:hover{
-    border-bottom: 3px solid black;    
+  border-bottom: 3px solid #406ac0;    
 }
 
- .navbar .btn{
-    font-size: 1.2rem;
-    color: #fff;
-    align-items: center;
-    cursor: center;
-    display: none;
- } 
+.navbar .btn{
+  font-size: 1.2rem;
+  color: #fff;
+  align-items: center;
+  cursor: center;
+  display: none;
+} 
 
 
  /* banner  */
@@ -96,7 +103,7 @@ header{
  .banner-title h1{
     font-size: 7rem;
     color: #fff;
-    background: rgba(0, 0, 0, 0.57);
+    /* background: rgba(0, 0, 0, 0.57); */
     padding: 50px;
     border-radius: 10px;
  }
@@ -230,17 +237,19 @@ header{
 
 /* practice area section  */
 
+.practice-area{
+  padding: 1rem 4rem;
+}
+
 .practice-title{
     font-size: 3.8rem;
     text-align: center;
     margin-top: 80px;
     margin-bottom: 60px;
-    text-decoration: underline;
   }
 
   .practice-title span {
-    color: #442911;
-    text-decoration: underline;
+    color: #406ac0;
   }
 
 
@@ -257,6 +266,7 @@ header{
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     border-radius: 8px;
     border: 1px solid rgba( 255, 255, 255, 0.08 );
+    padding: 0 0 2rem 0;
 
   }
   
@@ -271,6 +281,7 @@ header{
 
 
 
+
   /* back to top button css */
 .back-to-top{
     background: #fff;
@@ -280,6 +291,15 @@ header{
     right: 20px;
     bottom: 10px;
     width: 3vw;
+  }
+
+  .text h1{
+    font-size: 2rem;
+    padding: 0.5rem 0rem;
+    color: #406ac0;
+  }
+  .text p{
+    font-size: 1.3rem;
   }
 
 
@@ -385,8 +405,8 @@ header{
     padding-left: 0;
   }
   footer {
-    background-color: #3a3a3a;
-    color: #bbb;
+    background-color: #406ac0;
+    color: #fff;
     line-height: 1.5;
     margin-top: 10vh;
   }
@@ -436,6 +456,7 @@ header{
   /* Footer social */
   .ft-social {
     padding: 0 1.875rem 1.25rem;
+    border-top: 1px solid #fff;
   }
   .ft-social-list {
     display: flex;
@@ -450,7 +471,7 @@ header{
   /* Footer legal */
   .ft-legal {
     padding: 0.9375rem 1.875rem;
-    background-color: #252525;
+    background-color: #3a5389;
   }
   .ft-legal-list {
     width: 100%;
@@ -503,7 +524,7 @@ header{
     .banner-title h1 {
       font-size: 5rem;
       color: #fff;
-      background: rgba(0, 0, 0, 0.57);
+      /* background: rgba(0, 0, 0, 0.57); */
       padding: 25px;
       border-radius: 1rem;
       text-align: center;
@@ -525,9 +546,18 @@ header{
  }
 
  @media (max-width: 902px){
-    .back-to-top{
-        width: 5vw;
-    }
+  .customer-msg{
+    width: 5vw;
+  }
+
+  .whatsapp-msg{
+    width: 5vw;
+  }
+
+  .back-to-top{
+    width: 5vw;
+  }
+   
     .logo img{
       width: 34%;
     }
@@ -556,7 +586,7 @@ header{
   .banner-title h1 {
     font-size: 4rem;
     color: #fff;
-    background: rgba(0, 0, 0, 0.57);
+    /* background: rgba(0, 0, 0, 0.57); */
     padding: 25px;
     border-radius: 1rem;
     text-align: center;
@@ -612,6 +642,14 @@ header{
         margin: 15px;
      }
 
+     .customer-msg {
+      width: 10.2vw;
+     }
+
+     .whatsapp-msg{
+      width: 10.2vw;
+     }
+
      .back-to-top{
         width: 8vw;
      }
@@ -638,15 +676,14 @@ header{
     text-align: center;
 }
 
+.practice-area {
+  padding: 0rem 0rem;
+  }
 
- }
 
- @media(max-width:  335px){
-   
  }
 
 
 
   
-
 

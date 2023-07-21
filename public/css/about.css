@@ -7,6 +7,8 @@
     scroll-behavior: smooth;
 }
 
+
+
 /* navbar */
 
 header{
@@ -19,6 +21,7 @@ header{
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.57);
     
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
 }
 
 .container{
@@ -53,12 +56,14 @@ header{
 .navbar nav li {
     list-style: none; 
     margin-left: 1rem;
+    
 }
 
 .navbar nav li a{
     text-decoration: none;
     /* color: #fff; */
-    color: #000;
+    /* color: #000; */
+    color: #406ac0;
     font-size: 1.3rem;
     font-weight: 600;
     padding: 0.7rem 0.6rem;
@@ -66,7 +71,7 @@ header{
 }
 
 .navbar nav li a:hover{
-    border-bottom: 3px solid black;    
+    border-bottom: 3px solid #406ac0;    
 }
 
  .navbar .btn{
@@ -84,12 +89,13 @@ header{
     margin-top: 50px;
     margin-bottom: 20px;
     font-size: 3.8rem;
+    color:#000;
     /* text-decoration: underline ; */
      
   }
 
   .about h1 span{
-    color: #442911;
+    color:#406ac0;
     /* text-decoration: underline; */
   }
 
@@ -112,7 +118,9 @@ header{
     border-radius: 5px;
     padding: 30px;
 
-    background: rgba( 249, 245, 245, 0.45 );
+    /* background: rgba( 249, 245, 245, 0.45 ); */
+    background: #406ac0;
+    color: #fff;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.57);
     border-radius: 8px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
@@ -140,7 +148,7 @@ header{
 
   .about-text-content h2{
     font-size: 2.7rem;
-    color: #442911;
+    color: #fff;
     margin-bottom: 1vh;
   }
 
@@ -156,10 +164,11 @@ header{
     margin-top: 50px;
     margin-bottom: 40px;
     font-size: 3.8rem;
+    color: #000;
   }
 
   .about-founder h1 span{
-    color: #442911;
+    color:#406ac0;
   }
 
   .grid {
@@ -173,6 +182,8 @@ header{
   .grid > article {
     border: 1px solid #ccc;
     background: rgba( 249, 245, 245, 0.45 );
+    /* background:#406ac0; */
+    /* color: #fff; */
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     border-radius: 8px;
     border: 1px solid rgba( 255, 255, 255, 0.08 );
@@ -197,7 +208,8 @@ header{
   .grid .text p
   {
     text-align: justify;
-    word-spacing:-2px;
+    word-spacing:-3px;
+    font-size: 1.2rem;
   }
 
   .founder-social{
@@ -218,8 +230,8 @@ header{
     padding-left: 0;
   }
   footer {
-    background-color: #3a3a3a;
-    color: #bbb;
+    background-color: #406ac0;;
+    color: #fff;
     line-height: 1.5;
   }
   footer a {
@@ -268,6 +280,7 @@ header{
   /* Footer social */
   .ft-social {
     padding: 0 1.875rem 1.25rem;
+    border-top: 1px solid #fff;
   }
   .ft-social-list {
     display: flex;
@@ -282,7 +295,7 @@ header{
   /* Footer legal */
   .ft-legal {
     padding: 0.9375rem 1.875rem;
-    background-color: #252525;
+    background-color: #3a5389;
   }
   .ft-legal-list {
     width: 100%;
@@ -469,6 +482,15 @@ header{
  }
 
  @media (max-width: 900px){
+
+  .customer-msg{
+    width: 5vw;
+  }
+
+  .whatsapp-msg{
+    width: 5vw;
+  }
+
     .back-to-top{
         width: 5vw;
     }
@@ -546,6 +568,14 @@ header{
         top: 0;
         left: 86%;
         margin: 15px;
+     }
+
+     .customer-msg {
+      width: 10.2vw;
+     }
+
+     .whatsapp-msg{
+      width: 10.2vw;
      }
 
      .back-to-top{

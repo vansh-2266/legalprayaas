@@ -59,7 +59,8 @@ header{
 .navbar nav li a{
     text-decoration: none;
     /* color: #fff; */
-    color: #000;
+    color: #406ac0;
+    /* color: #000; */
     font-size: 1.3rem;
     font-weight: 600;
     padding: 0.7rem 0.6rem;
@@ -67,7 +68,7 @@ header{
 }
 
 .navbar nav li a:hover{
-    border-bottom: 3px solid black;    
+    border-bottom: 3px solid #406ac0;    
 }
 
   /* video bg  */
@@ -116,12 +117,23 @@ section video {
     background: inherit;
     color: #fff;
     transition: all 0.3s ease-in-out;
+    
+ }
+
+ .about-btn-cs{
+  text-decoration: none;
+  color: #fff;
  }
 
  .content button:hover{
     background: #fff;
     color: #000;
     font-weight: bold;
+ }
+
+ .about-btn-cs:hover{
+  text-decoration: none;
+  color: #000;
  }
 
  /* //// social icons ////  */
@@ -259,7 +271,7 @@ section video {
   }
 
   .popup-box button:hover{
-    background: rgb(191, 0, 0);
+    background: rgb(1, 127, 13);
     border: 1px solid #000;
     transition: 0.5s;
   }
@@ -284,7 +296,7 @@ section video {
   }
 
   .whyUs-title span{
-    color: #442911;
+    color: #406ac0;
   }
 
   .whyUsPara{
@@ -304,7 +316,7 @@ section video {
   width: 100%;
   position: inherit;
   margin-top: 4.5vh;
-  background: #3a3a3a;
+  background: #406ac0;
   margin-bottom: 0px;
 
 }
@@ -904,6 +916,10 @@ body {
 div.form {
   background-color: #eee;
 }
+
+.form h1 span{
+  color: #406ac0;
+}
 .contact-wrapper {
   margin: auto 0;
 }
@@ -1054,7 +1070,7 @@ button:focus , .submit-btn:focus{
     padding-left: 0;
   }
   footer {
-    background-color: #3a3a3a;
+    background-color: #406ac0;
     color: #bbb;
     line-height: 1.5;
   }
@@ -1104,6 +1120,7 @@ button:focus , .submit-btn:focus{
   /* Footer social */
   .ft-social {
     padding: 0 1.875rem 1.25rem;
+    border-top: 1px solid #fff;
   }
   .ft-social-list {
     display: flex;
@@ -1118,7 +1135,7 @@ button:focus , .submit-btn:focus{
   /* Footer legal */
   .ft-legal {
     padding: 0.9375rem 1.875rem;
-    background-color: #252525;
+    background-color: #3a5389;
   }
   .ft-legal-list {
     width: 100%;
@@ -1335,7 +1352,7 @@ button:focus , .submit-btn:focus{
 
  @media(max-width: 580px){
     .content h2{
-        font-size: 2rem;
+        font-size: 2.2rem;
         color: #fff ;
      }
 

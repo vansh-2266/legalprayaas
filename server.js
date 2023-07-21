@@ -27,7 +27,6 @@ app.get('/contact', (req, res) => {
 
 
 
-
 app.get('/article', (req, res) => {
     res.sendFile(path.join(initial_path, "blogHome.html"));
 })
@@ -59,6 +58,14 @@ app.post('/upload', (req, res) => {
 
 app.get("/adminDash", (req, res) => {
     res.sendFile(path.join(initial_path, "dashboard.html"));
+})
+
+app.get('/careerDash', (req, res) => {
+    res.sendFile(path.join(initial_path, "careerDash.html"));
+})
+
+app.get('/career', (req, res) => {
+    res.sendFile(path.join(initial_path, "career.html"));
 })
 
 

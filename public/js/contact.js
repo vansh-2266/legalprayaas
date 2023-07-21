@@ -11,11 +11,11 @@ closeBtn.addEventListener('click', function(){
     menu.classList.remove('active');
 })
 
-// // whatsApp direct
-// let whatsApp = document.querySelector('.whatsapp-msg');
 
-// whatsApp.addEventListener('click', function(){
-//     var url = "https://wa.me/917004625488?text=" ;
-//     window.open(url, '_blank').focus();
-// })
 
+let whatsLink = document.querySelector('.whatsapp-link');
+
+whatsLink.addEventListener('click', function(){
+    var url = "https://wa.me/919205248110?text=" ;
+    window.open(url, '_blank').focus();
+})
