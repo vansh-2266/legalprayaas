@@ -272,7 +272,7 @@ header{
   @media only screen and (min-width: 77.5rem /* 1240px */) {
     .ft-main {
       justify-content: space-evenly;
-      background: #000;
+      
     }
   }
   .ft-main-item {
